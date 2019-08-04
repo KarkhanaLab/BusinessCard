@@ -1,0 +1,465 @@
+.profile-image {
+    border: solid 5px #fff;
+    border-radius: 150px;
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 10;
+
+}
+.profile-image img {
+    width: 290px;
+    height: 290px;
+}
+.main {
+    padding-bottom: 1px;
+}
+.main .no-profile .title {
+    padding-top: 20px;
+}
+.main .details-table li, .vcard-collapse-item {
+	line-height: 90px;
+	padding:0px;
+}
+.logo {padding:0;}
+.featured-image {min-height: 25px;}
+.vcard-collapse-item__contentOuter,.vcard-collapse-item__trigger{
+	padding: 0 5%;
+}
+.vcard-collapse-item__contentOuter{
+	border-top: 1px solid #ddd;
+}
+
+.vcard-collapse-item__contentInner{
+	padding: 30px 0;
+	margin-top: 2px;
+}
+.main .details-table li {
+	border-top: 3px solid #ebebeb;
+	border-bottom: none;
+}
+.vcard-collapse-item {
+    border: 1px solid #d5d6d6;
+    font-size: 26px;
+	color: #313336;
+	margin-bottom: 20px;
+
+}
+
+.personal .personal-link li .ico-wrap, .personal .alternative-social-display .fa {
+    color: #3597fb;
+}
+
+.col-1.header {padding-top: 1px;}
+.vcard-collapse-item{border-radius: 6px;}
+.details-table li .value {float:left;}
+.details-table li#email .value, .details-table li#website .value {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	direction: ltr;
+	white-space: nowrap;
+}
+.details-table li#email .value {max-width: 622px;}
+.details-table li#website .value {max-width: 622px;}
+
+.details-table li:after {clear:both;content: "";display: block;height:1px;}
+.details-table li .fa {vertical-align: middle;}
+.ico-wrap {display: inline-block;text-align: center;width: 80px;float: left;}
+ .personal-link li .ico-wrap {
+    text-align: left;
+    padding-left: 5px;
+    color: #3597fb;
+  }
+.vcard-collapse-item .ico-wrap {
+    width: 46px;
+    text-align: left;
+}
+.personal-link svg, .vcard-collapse-item svg {vertical-align: middle;}
+.personal-link svg {width: 54px;}
+.main .details-table li a {color: #259fdd;}
+.details-table li .label, .details-table li .value {padding-left: 28px;font-size: 34px;font-weight: 600;position: relative;top:6px;}
+.acc-label {
+    padding-left: 28px;
+    font-weight: 600;
+    font-size: 32px;
+}
+#mobile_phone .ico-wrap {position: relative;left: 0px;top:2px;}
+.two-lines #mobile_phone .ico-wrap {left: 26px;}
+#fax-label {font-size: 38px;font-weight: bold;color: #231f20;line-height: 110px;position: relative;top: 6px;float: right;}
+#fax-label #l1 {letter-spacing: 4px;}
+#fax-label #l2 {letter-spacing: 4px;}
+#fax-label #l3 {letter-spacing: 4px;}
+
+.details-table li a.waze-social {display: inline-block;float:right;}
+.details-table li#fax a {display: inline-block;}
+
+#address .ico-wrap, #address .label, #address .waze-social {display: table-cell;}
+#address .ico-wrap, #address .waze-social {vertical-align: middle;float: none;}
+#address.with-waze .label {padding-top: 24px;padding-bottom: 24px;}
+
+#address .label {
+	width: 650px;
+	line-height: 42px;
+	display: inline-block;
+	padding-top: 24px;
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 30px;
+}
+#address.has-gps .label {
+	width: 446px;
+	padding-left: 28px;
+}
+
+/* Details Icons Position Fixes */
+.social-icons .fa {font-size: 56px;}
+.vcard-collapse-item .vcard-collapse-item__trigger:after {font-size: 120%;top: 32px;right: 6%; font-weight: bold;}
+.details-table li#sms_with_wp .fa {padding-left: 1.3%;}
+
+/* Contact Form */
+.leads.vcard-collapse-item .fa {padding-left: 18px;font-size: 42px;padding-right: 9px; position: relative;top: 2px;}
+.card-actions .leads.vcard-collapse-item .fa {
+    width: auto;
+    font-size: 140%;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 2px;
+}
+
+.rtl .details-table li .label, .rtl .details-table li .value {padding-left:0;padding-right: 28px;}
+.rtl .two-lines #mobile_phone .ico-wrap {left:inherit;right: 26px;}
+.rtl #mobile_phone .ico-wrap {left:inherit;right:0px;}
+.rtl .details-table li .value {float: none;}
+.rtl .share .vcard-collapse-item__contentInner .share-item {padding-right: 2.5%;padding-left: 2.5%;}
+.rtl .acc-label {padding-left:0;padding-right: 28px;}
+.rtl #address .label {text-align: right; padding-right: 42px;}
+.rtl #address.has-gps .label {padding-right: 28px;}
+.rtl #address svg {left:inherit;right: -10px;}
+.rtl .share svg {right: -8px;}
+.rtl .details-table li .value {float:right;}
+.rtl .details-table li a.waze-social {float:left;}
+.rtl .leads.vcard-collapse-item .fa {padding-right: 17px; padding-left: 10px;}
+.rtl .card-actions .leads.vcard-collapse-item .fa {padding-left:2px;padding-right: 10px;}
+.rtl .details-table li#sms_with_wp .fa {padding-right: 1%;}
+.rtl .details-table li#address #address-2 {padding-right: 0;}
+/*WEBTECH STYLE*/
+.no-profile .profile-image {display: none;}
+
+.profile-wrap .hero {
+    max-height: 330px;
+    overflow: hidden;
+    clear: both;
+}
+
+.profile-wrap .profile-image {
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+}
+.description img {
+    margin: -3px 5px 0;
+}
+.profile-wrap .profile-image img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.profile-wrap .profile-image{
+	float: left;
+}
+.profile-wrap .title{
+	float: left;
+	text-align: left;
+	padding: 50px 4% 20px 4%;
+	position: relative;
+}
+
+.main .title.personal-shrink h1 {
+    font-size: 60px;
+}
+.main .description{
+	font-size: 36px;
+}
+.main .personal-shrink .description {
+    font-size: 32px;
+}
+.main .title h1 {font-weight: normal; font-size: 72px;}
+.title h1, .main, .details-link li a{
+	font-family: 'Open Sans', sans-serif;
+}
+.title{
+	margin-bottom: 30px;
+}
+.description,.personal-link li a, .title h1, #accordion1, body, .personal-link li>div {
+    font-family: 'Assistant', sans-serif;
+}
+.personal-link.tech-link li a, .description{
+    font-family: 'Fira Sans', sans-serif;
+}
+.details-link ,.personal-link {
+    list-style-type: none;
+    display: inline-block;
+    border-top: 1px solid #ebebeb;
+    width: 100%;
+    padding: 50px 0 0;
+    text-align: center;
+}
+
+.details-link li {
+
+    display: inline-block;
+    padding: 0 5% 70px;
+
+}
+ .details-link li a,.personal-link li a, .personal-link li>div{
+	color: #000;
+    display: block;
+
+}
+.details-link li a img{
+
+    margin-bottom: 18px;
+
+}
+.details-link li a p, .personal-link li a p, .personal-link li>div p {
+	font-size: 30px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 75%;   
+}
+
+.resources {
+    float: left;
+    height: 60px;
+    width: 60px;
+    padding-top: 14px;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.alternative-social-display .resources {
+    padding-top: 18px;
+}
+
+.sharecircle {
+    position: absolute;
+    right: -35%;
+    top: 30px;
+}
+
+.sharecircle svg {width: 60px;}
+
+.personal-link li {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.personal-link li a, .personal-link li>div {
+    display: inline-block;
+    width: 94%;
+    text-align: left;
+    padding: 20px 20px 10px 20px;
+    border: 1px solid #d5d6d6;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.personal-link {
+
+    border: none;
+    padding: 0;
+
+}
+
+.personal-link li#address p, .personal-link li#address a p, .personal-link li.clink a p {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    white-space: normal;
+}
+.personal-link li#address.two-lines p, .personal-link li#address.two-lines a p, .personal-link li.clink.two-lines p {margin-bottom: 0;margin-top: 0;}
+.personal-link li#address.two-lines p:last-child, .personal-link li#address.two-lines a p:last-child, .personal-link li.clink.two-lines p:last-child {margin-bottom: 10px;}
+
+
+.personal-link li.odd:last-child {
+    width: 98%;
+}
+.personal-link li.odd:last-child a, .personal-link li#address.odd:last-child>div {
+    width: 97.8%;
+}
+
+.about .vcard-collapse-item__contentInner{
+	font-size: 32px;
+	line-height: normal;
+}
+#accordion1 {
+    padding: 0 15px;
+    width: 99.8%;
+
+}
+.lead_form input, .lead_form textarea{
+	border: 1px solid #c3c3c3;
+}
+.vcard-collapse-item__trigger {
+    border: 1px solid #eee;
+}
+.tech .vcard-collapse-item__trigger {
+	border:none;
+    border-bottom: 1px solid #eee;
+}
+.social-icons a,.social-icons a{
+	font-size: 55px;
+}
+
+.personal-link #facebook .fa, .personal-link #twitter .fa, .personal-link #google-plus .fa, .personal-link #linkedin .fa, .personal-link #instagram .fa, .personal-link #youtube .fa {font-size: 46px; line-height: 49px;}
+.personal-link #google-plus .fa { position: relative; left: 4px; font-size: 38px;}
+.personal-link #facebook .titleres, .personal-link #twitter .titleres, .personal-link #google-plus .titleres, .personal-link #linkedin .titleres, .personal-link #instagram .titleres, .personal-link #youtube .titleres {opacity: 0.9;    position: relative;    top: 9px; margin-top: 11px; margin-bottom: 30px;}
+
+
+.vcard-collapse-item svg {
+    width: 36px;
+}
+.vcard-collapse-item .accordion-toggle[aria-expanded="true"] svg  {
+    color: #3597fb;
+}
+.positioned{
+	font-size: 100%;
+	top: 32px;
+	right: 6%;
+	position: absolute;
+}
+
+.share-inline {
+    margin: 30px 0 50px;
+}
+.share-inline a, .share-inline span.trigger-share-modal {
+    margin: 0 16px;
+    background:#3597fb;
+    padding:26px 27px 23px 27px;
+    display: inline-block;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.share-inline svg {width: 36px;color:#fff;}
+
+.titleres {
+    color: #585b5e;
+    opacity: 0.55;
+}
+.cta-text-small.blue{
+	color: #3598fe;
+}
+.personal-link.tech-link li a {
+    background: #fff;
+    box-shadow: 0px 5px 20px 5px #eee;
+    border-radius: 20px;
+    border: none;
+}
+.tech .profile-wrap .profile-image {
+    float: left;
+    margin-top: -40px;
+    margin-left: 40px;
+    background: #fff;
+	border-radius: 20px;
+
+}
+.techup{
+
+    background: #fff;
+    margin-top: -30px;
+    z-index: 99;
+    border-radius: 30px;
+    display: inline-block;
+    width: 100%;
+
+}
+.col-1,.col-2 {
+	clear: both;
+}
+.tech .vcard-collapse-item{
+	border:none;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+}
+.share-3 {
+    position: absolute;
+    right: 10%;
+    bottom: 60px;
+}
+.indexing{
+
+    position: relative;
+    z-index: -1;
+
+}
+.titleres {
+
+    margin: 0;
+
+}
+.alternative-social-display {
+    display: inline;
+}
+.follow-us {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.footer {
+    border-top: 0;
+}
+@media(max-width: 600px){
+	.social-icons a, .social-icons a {
+	    font-size: 20px;
+	}
+	.social-icons{
+		padding-top: 0;
+	}
+	.socials{
+		padding:20px 4%;
+	}
+}
+/*WEBTECH STYLE END*/
+
+@media(min-width: 801px) {
+    #accordion1 {padding-right: 0;padding-left: 0;}
+    .card-actions .vcard-collapse-item {border-color: #eee;}
+    .card-actions .vcard-collapse-item .vcard-collapse-item__trigger {width: 100%; margin:0;padding:0;padding-left: 3%;}
+    .rtl .card-actions .vcard-collapse-item .vcard-collapse-item__trigger {width: 100%; margin:0;padding:0;padding-left: 0;padding-right: 3%;}
+    .card-actions .vcard-collapse-item {margin-bottom: 6px;}
+    .acc-label {font-size: 20px;padding-left: 22px;}
+    .rtl .acc-label  {padding-right: 22px;}
+    .card-actions .vcard-collapse-item svg {width: 54%;}
+
+    .vcard-action-item .acc-label:before {
+        padding-right: 11px;
+        text-align: center;
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 21px;
+        position: relative;
+        top: 2px;
+    }   
+    .vcf.vcard-action-item .acc-label:before {content: "\f2bc";}
+    .share.vcard-action-item .acc-label:before {content: "\f1e0";}
+    .vcard-action-item .acc-label {font-size: 16px;}
+}
+
+/* RTL Overrides */
+.rtl #address .label, .rtl .profile-wrap .title, .rtl .personal-link li a, .rtl #address .label, .rtl .profile-wrap .title, .rtl .personal-link li a, .rtl .personal-link li>div {text-align: right;}
+.rtl .vcard-collapse-item .ico-wrap, .rtl .personal-link li .ico-wrap {text-align: right;}
+.rtl .resources {float: right; margin-right: 0; margin-left: 16px;}
+.rtl .ico-wrap {float: right;}
